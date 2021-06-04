@@ -15,6 +15,18 @@ public class Main {
             String[] output = new String[12];
             BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
 
+            System.out.println("Info:");
+            System.out.println("****************************************************");
+            System.out.println("For Null use X");
+            System.out.println("For Sand use S");
+            System.out.println("For Grass use G");
+            System.out.println("For Dirt use D");
+            System.out.println("For Water use W");
+            System.out.println("For Street use R");
+            System.out.println("For Forest use F");
+            System.out.println("****************************************************");
+
+
             System.out.println("Input your level name");
             levelName = obj.readLine();
 
